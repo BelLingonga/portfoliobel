@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Satrter CSS</title>
+	<meta name="description" content="La description de Street art passion">
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<style type="text/css">
+		.grid-card {
+			border: 1px solid #adadad;
+			background: #ddd;
+			height: 60px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="header-top">
+		<div class="wrap">
+			<div class="grid">
+				<header class="logo col-d-3">
+					<a href="index.html" title="Retour à l'accueil">
+						<img src="https://via.placeholder.com/150x80" alt="Le nom du site" width="150" height="80">
+					</a>
+				</header>
+				<nav class="menu col-d-9">
+					<a class="current" href="index.html" title="Aller à la page d'accueil">Accueil</a>
+					<a href="#" title="aller à l'item 1">item 1</a>
+					<a href="#" title="aller à l'item 2">item 2</a>
+					<a href="#" title="aller à l'item 3">item 3</a>
+					<a href="#" title="aller à l'item 4">item 4</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<main class="wrap">
+
+		<section>
+
+			<h1>Headings</h1>
+			<div class="grid">
+				<div class="col-t-6">
+					<h1>h1 Heading</h1>
+					<h2>h2 Heading</h2>
+					<h3>h3 Heading</h3>
+					<h4>h4 Heading</h4>
+					<h5>h5 Heading</h5>
+					<h6>h6 Heading</h6>
+				</div>
+				<div class="col-t-6">
+					<p class="h1-like">.h1-like paragraph</p>
+					<p class="h2-like">.h2-like paragraph</p>
+					<p class="h3-like">.h3-like paragraph</p>
+					<p class="h4-like">.h4-like paragraph</p>
+					<p class="h5-like">.h5-like paragraph</p>
+					<p class="h6-like">.h6-like paragraph</p>
+				</div>
+			</div>
+			<hr>
+
+			<h1>Paragraph</h1>
+
+
+
+			<p>Quisque semper nisi sit amet ante accumsan pellentesque. Duis fermentum dignissim mauris id dignissim.
+				Praesent nec sodales erat. Nunc in euismod nunc, vitae tempor leo. Donec <em>text emphase</em>vehicula
+				dignissim quam sit amet volutpat. Maecenas non <strong>texte en emphase forte</strong>semper ligula.
+				Donec rutrum lacinia sapien sit amet feugiat. Quisque at nunc sed metus pulvinar ultrices sit amet non
+				nunc. <code>In finibus</code> eget ante in fringilla.</p>
+
+			<hr>
+			<h1>Abbr, sup, sub, cite, pre, blockquote</h1>
+
+			<p>Quisque semper nisi sit amet ante accumsan pellentesque. Duis fermentum <abbr
+					title="Hypertxt Markup Language">HTML</abbr>dignissim <sub>sub</sub>mauris <sup>sup</sup>id
+				dignissim. Praesent nec sodales erat. Nunc in euismod nunc, <cite>vitae tempor leo</cite>. Donec
+				vehicula dignissim quam sit amet volutpat. Maecenas non semper ligula. Donec rutrum lacinia sapien sit
+				amet feugiat. Quisque at nunc sed metus pulvinar ultrices sit amet non nunc. In finibus eget ante in
+				fringilla.</p>
+
+			<pre>
+    .table {
+	        display: table-cell;
+           }
+				</pre>
+			<blockquote>
+				<p>Quisque semper nisi sit amet ante accumsan pellentesque. Duis fermentum dignissim </p>
+
+			</blockquote>
+
+			<hr>
+
+			<h1>Buttons</h1>
+
+			<p>Use : <code>.btn</code> and : <code>.btn--large</code>, <code>.btn--small</code> and after
+				<code>.btn--secondary</code></p>
+			<p>
+				<a href="#" class="btn btn--large v-bottom">Bouton</a>
+				<a href="#" class="btn v-bottom">Bouton</a>
+				<a href="#" class="btn btn--small v-bottom">Bouton</a>
+
+			</p>
+			<p>
+				<a href="#" class="btn btn--large btn--secondary v-bottom">Bouton</a>
+				<a href="#" class="btn btn--secondary  v-bottom">Bouton</a>
+				<a href="#" class="btn btn--small btn--secondary v-bottom">Bouton</a>
+
+			</p>
+
+			<hr>
+			<h1>Tableau</h1>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Table header 1</th>
+						<th>Table header 2</th>
+						<th>Table header 3</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Division 1</td>
+						<td>Division 2</td>
+						<td>Division 3</td>
+					</tr>
+					<tr>
+						<td>Division 1</td>
+						<td>Division 2</td>
+						<td>Division 3</td>
+					</tr>
+					<tr>
+						<td>Division 1</td>
+						<td>Division 2</td>
+						<td>Division 3</td>
+					</tr>
+					<tr>
+						<td>Division 1</td>
+						<td>Division 2</td>
+						<td>Division 3</td>
+					</tr>
+				</tbody>
+
+				<tfoot>
+					<tr>
+						<th colspan="3">Pied de page</th>
+					</tr>
+				</tfoot>
+			</table>
+
+			<hr>
+
+			<h1>Grid</h1>
+			<p>How to use the css grid ?</p>
+			<div class="grid mbs">
+				<div class="col-t-1">
+					<div class="grid-card ">
+						<p class="mts">.col-t-1</p>
+					</div>
+				</div>
+				<div class="col-t-11">
+					<div class="grid-card ">
+						<p class="mts">.col-t-11</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid mbs">
+				<div class="col-t-2">
+					<div class="grid-card ">
+						<p class="mts">.col-t-2</p>
+					</div>
+				</div>
+				<div class="col-t-10">
+					<div class="grid-card ">
+						<p class="mts">.col-t-10</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid mbs">
+				<div class="col-t-3">
+					<div class="grid-card ">
+						<p class="mts">.col-t-3</p>
+					</div>
+				</div>
+				<div class="col-t-9">
+					<div class="grid-card ">
+						<p class="mts">.col-t-9</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid mbs">
+				<div class="col-t-4">
+					<div class="grid-card ">
+						<p class="mts">.col-t-4</p>
+					</div>
+				</div>
+				<div class="col-t-8">
+					<div class="grid-card ">
+						<p class="mts">.col-t-8</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid mbs">
+				<div class="col-t-5">
+					<div class="grid-card ">
+						<p class="mts">.col-t-5</p>
+					</div>
+				</div>
+				<div class="col-t-7">
+					<div class="grid-card ">
+						<p class="mts">.col-t-7</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid mbs">
+				<div class="col-t-6">
+					<div class="grid-card ">
+						<p class="mts">.col-t-6</p>
+					</div>
+				</div>
+				<div class="col-t-6">
+					<div class="grid-card ">
+						<p class="mts">.col-t-6</p>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<h1>Form</h1>
+
+			<fieldset>
+				<form>
+					<ul>
+						<li>
+							<label class="required" for="nom">nom</label>
+							<input id="nom" type="text" name="text_field" placeholder="Write your text here *" required>
+						</li>
+						<li>
+							<label class="required" for="text_field">Input text</label>
+							<input id="text_field" type="text" name="text_field" placeholder="Write your text here *"
+								required>
+						</li>
+						<li>
+							<label for="text_area">Textarea</label>
+							<textarea id="text_area" name="text_area" rows="8"></textarea>
+
+						</li>
+
+						<li>
+							<label for="select-element">Select element</label>
+							<select id="select-element" name="select-element" multiple="multiple">
+								<optgroup label="Taille">
+									<option value="small">small</option>
+									<option value="medium">medium</option>
+									<option value="large">large</option>
+								</optgroup>
+								<optgroup label="Couleur">
+									<option value="1">Option 1</option>
+									<option value="2">Option 2</option>
+									<option value="3">Option 3</option>
+									<option value="4">Option 4</option>
+								</optgroup>
+
+							</select>
+						</li>
+
+						<li class="grid">
+							<div class="col-t-6">
+								<label for="payment">Payment</label>
+								<label>
+									<input id="payment" type="radio" name="pay" value="CB">CB
+								</label>
+								<label>
+									<input type="radio" name="pay" value="Paypal">Paypal
+								</label>
+								<label>
+									<input type="radio" name="pay" value="Stripe">Stripe
+								</label>
+							</div>
+
+							<div class="col-t-6">
+								<label for="options">Options</label>
+								<label>
+									<input id="options" name="options" type="checkbox" value="gift">For a gift
+								</label>
+								<label>
+									<input type="checkbox" name="options" value="warranty">5 years warranty
+								</label>
+								<label>
+									<input type="checkbox" name="options" value="express">Express delivery
+								</label>
+							</div>
+
+						</li>
+
+						<li>
+							<label for="password" class="required">Password</label>
+							<input id="password" name="password" type="password" required>
+						</li>
+						<li>
+							<label for="search">Input search</label>
+							<input id="search" name="search" type="search">
+						</li>
+						<li>
+							<input class="btn" type="submit" value="Submit">
+						</li>
+					</ul>
+					<small>* Required fields</small>
+
+				</form>
+			</fieldset>
+
+			<hr>
+
+			<h1>Media objects</h1>
+
+			<p>
+				<audio controls>
+					<source src="medias/son.mp3">
+					<source src="medias/son.ogg">
+				</audio>
+			</p>
+			<p>
+				<video width="800" poster="medias/iesa_multimedia.jpg" controls>
+					<source src="medias/video-iesa-oct-17.mp4">
+					<source src="medias/video-iesa-oct-17.ogv">
+					<source src="medias/video-iesa-oct-17.webm">
+				</video>
+			</p>
+
+			<h1>Iframe</h1>
+
+			<div class="box-iframe">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.459564392561!2d2.3667972159032136!3d48.86851510794743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e3b07a45603%3A0x76ebccf5f697f6fa!2sDigital%20Campus%20Paris%20(IESA%20multim%C3%A9dia)!5e0!3m2!1sfr!2sfr!4v1636370612875!5m2!1sfr!2sfr"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="wrap">
+			<p class="txt-center"><small>&copy; 2021 Starter CSS</small></p>
+		</div>
+	</footer>
+
+	<!-- retour haut de page -->
+	<i class="totop fas fa-chevron-square-up fa-2x"></i>
+	<!-- burger menu -->
+	<i class="btn-menu fal fa-bars fa-2x"></i>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
